@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StuntInfo</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static', filename='styles/styles.css')}}"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='styles/chat.css')}}"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--jquery untuk get-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="jumbotron" id="home">
+        <h1>Stunting</h1>
+        <p>
+          Stunting adalah kondisi di mana anak mengalami gangguan pertumbuhan
+          dan perkembangan akibat kekurangan gizi dalam jangka panjang
+        </p>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#home">Beranda</a></li>
+          <li><a href="#about">Tentang Stunting</a></li>
+          <li><a href="#news">Berita</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div id="content">
+        <article class="card" id="about">
+          <h2>Apa itu Stunting</h2>
+          <p>
+            Stunting adalah kondisi kronis yang memengaruhi pertumbuhan dan
+            perkembangan fisik seorang anak akibat kurangnya gizi yang cukup
+            selama periode pertumbuhan mereka. Stunting adalah masalah serius
+            yang mempengaruhi anak-anak di seluruh dunia, terutama di
+            negara-negara dengan tingkat gizi rendah dan kurangnya akses
+            terhadap makanan berkualitas.
+          </p>
+
+          <p>
+            Anak-anak yang mengalami stunting cenderung memiliki tinggi badan
+            yang lebih pendek dari anak-anak sebaya mereka. Stunting dapat
+            mengakibatkan berbagai masalah kesehatan dan perkembangan, termasuk
+            penurunan kecerdasan, gangguan sistem kekebalan tubuh, dan risiko
+            penyakit kronis saat dewasa.
+          </p>
+
+          <p>
+            Upaya untuk mengatasi masalah stunting meliputi kampanye edukasi
+            gizi, pemberian makanan bergizi kepada ibu hamil dan anak-anak,
+            peningkatan akses ke air bersih dan sanitasi, serta pemberian
+            dukungan kesehatan kepada masyarakat. Masyarakat, pemerintah, dan
+            organisasi non-pemerintah dapat berperan dalam mengurangi prevalensi
+            stunting dan meningkatkan kesejahteraan anak-anak.
+          </p>
+        </article>
+
+        <article class="card" id="news">
+          <h2>Berita</h2>
+
+          <section>
+            <a
+              class="news-title"
+              href="https://cegahstunting.id/berita/turunkan-prevalensi-stunting-pencegahannya-dari-hulu/"
+              target="_blank"
+              >Turunkan Prevalensi Stunting, Pencegahannya dari Hulu</a
+            >
+            <img
+              class="featured-image"
+              src="https://cegahstunting.id/wp-content/uploads/2020/05/Turunkan-Prevalensi-Stunting-Pencegahannya-dari-Hulu-696x463.jpg"
+              alt="news"
+            />
+            <p>
+              Mediaindonesia.com, KUNCI menurunkan angka prevalensi stunting
+              atau tengkes yang masih tinggi di Indonesia yakni melalui
+              pencegahan dari hulu. Oleh karena itu, Menteri Koordinator Bidang
+              Pembangunan Manusia...
+            </p>
+          </section>
+          <section>
+            <a
+              class="news-title"
+              href="https://cegahstunting.id/berita/kekurangan-gizi-ancam-masyarakat-selama-wabah-covid-19/"
+              target="_blank"
+              >Kekurangan Gizi Ancam Masyarakat selama Wabah Covid-19</a
+            >
+            <img
+              class="featured-image"
+              src="https://cegahstunting.id/wp-content/uploads/2020/05/kekurangan-gizi-ancam-masyarakat-selama-wabah-covid-19-218x150.jpg"
+              alt="news"
+            />
+            <p>
+              Mediaindonesia.com, KERJA sama multipihak dibutuhkan dalam
+              merespon permasalahan gizi masyarakat selama pandemi covid-19.
+              Tujuannya adalah memperkuat kapasitas sistem kesehatan dan
+              ketahanan pangan serta gizi...
+            </p>
+          </section>
+          <section>
+            <a
+              class="news-title"
+              href="https://cegahstunting.id/berita/3-fokus-pemerintah-turunkan-angka-stunting/"
+              target="_blank"
+              >3 Fokus Pemerintah Turunkan Angka Stunting</a
+            >
+            <img
+              class="featured-image"
+              src="https://cegahstunting.id/wp-content/uploads/2020/05/3-Fokus-Pemerintah-Turunkan-Angka-Stunting-218x150.jpg"
+              alt="news"
+            />
+            <p>
+              JAKARTA, KOMPAS.com, Menteri PPN/Kepala Bappenas Suharso Monoarfa
+              mengatakan, ada tiga fokus yang dibutuhkan Indonesia agar berhasil
+              penurunan angka stunting. Hal itun ia sampaikan...
+            </p>
+          </section>
+          <section>
+            <a
+              class="news-title"
+              href="https://cegahstunting.id/berita/pemanfaatan-dak-antropometri-dalam-penurunan-stunting/"
+              target="_blank"
+              >Pemanfaatan DAK Antropometri dalam Penurunan Stunting</a
+            >
+            <img
+              class="featured-image"
+              src="https://cegahstunting.id/wp-content/uploads/2022/02/Rev-IG-DAK-Antrop-4-696x696.jpg"
+              alt="news"
+            />
+            <p>
+              Bappenas, Februari dan Agustus merupakan Bulan Penimbangan Balita
+              sekaligus pemberian vitamin A di posyandu se-Indonesia. Berbeda
+              dari bulan lainnya, terdapat beberapa kegiatan tambahan pada bulan
+              ini seperti ...
+            </p>
+          </section>
+          <section>
+            <a
+              class="news-title"
+              href="https://cegahstunting.id/berita/ringkasanoutput2022/"
+              target="_blank"
+              >Berapa Anggaran Kementerian/Lembaga yang Berkontribusi terhadap
+              Penurunan Stunting?</a
+            >
+            <img
+              class="featured-image"
+              src="https://cegahstunting.id/wp-content/uploads/2022/05/Thumbnail-Web-06-06-696x392.jpg"
+              alt="news"
+            />
+            <p>
+              Bappenas, Sejak tahun 2019, Kementerian PPN/Bappenas dan
+              Kementerian Keuangan menyusun Dokumen Ringkasan Rincian Output
+              Kementerian/Lembaga yang Mendukung Percepatan Penurunan Stunting
+              setiap tahunnya. Tahun 2022 merupakan tahun keempat pelaksanaan
+              kegiatan ...
+            </p>
+          </section>
+        </article>
+      </div>
+
+      <aside>
+        <article class="card info">
+          <header>
+            <h2>Data Stunting</h2>
+            <figure>
+              <img src="/assets/images/OIP.jpg" alt="" />
+              <figcaption>hasil Survei Status Gizi Indonesia (SSGI)</figcaption>
+            </figure>
+          </header>
+          <section>
+            <h3>Informasi</h3>
+            <table>
+              <tr>
+                <th>2018</th>
+                <td>30,8%</td>
+              </tr>
+              <tr>
+                <th>2019</th>
+                <td>27,7%</td>
+              </tr>
+              <tr>
+                <th>2021</th>
+                <td>24,4%</td>
+              </tr>
+              <tr>
+                <th>2022</th>
+                <td>21,6%</td>
+              </tr>
+              <tr>
+                <th>2023</th>
+                <td>17,8%</td>
+              </tr>
+            </table>
+          </section>
+        </article>
+      </aside>
+    </main>
+
+    <footer>
+      <p>Pencegahan Stunting &#169; 2023, Rizki Arief Dehanudin</p>
+    </footer>
+
+    <!-- Chatbot -->
+    <div class="chatbox">
+      <div class="chatbox__support">
+        <div class="chatbox__header">
+          <div class="chatbox__image--header">
+            <img src="static/images/logo.png" alt="Logo" />
+          </div>
+          <div class="chatbox__content--header">
+            <h3 class="chatbox__heading--header">StuntInfo</h3>
+          </div>
+        </div>
+        <div class="chatbox__messages" id="chatbot">
+          <div id="conversation">
+            <div class="messages__item messages__item--operator">
+              Hai, Selamat datang di StuntInfo!!! Ada yang mau ditanyakan?
+            </div>
+          </div>
+        </div>
+        <form id="input-form" class="chatbox__footer">
+          <input
+            id="input-field"
+            type="text"
+            placeholder="Tulis pertanyaanmu disini"
+            required
+          />
+          <button
+            id="submit-button"
+            type="submit"
+            class="chatbox__send--footer"
+          >
+            <span
+              class="fa-solid fa-paper-plane fa-lg"
+              style="color: #e28024"
+            ></span>
+          </button>
+        </form>
+      </div>
+      <a class="chatbox__button" role="button">
+        <img src="static/images/live-chat.png" alt="Live Chat" />
+      </a>
+    </div>
+    <!--End Chabot-->
+
+    <script src="/static/scripts/Chat.js"></script>
+    <script src="/static/scripts/app.js"></script>
+    <script src="/static/scripts/index.js"></script>
+  </body>
+</html>

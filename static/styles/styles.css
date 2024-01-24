@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: inline;
+}
+
+nav {
+  background-color: #d1a506 ;
+  padding: 5px;
+  position: sticky;
+  top: 0;
+}
+
+nav ul {
+  padding-inline: 4rem;
+  display: flex;
+  gap: 2rem;
+  max-width: 1500px;
+  margin: 20px auto;
+}
+
+nav li {
+  list-style-type: none;
+}
+
+nav a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+
+  color: white;
+}
+
+nav a:hover {
+  font-weight: bold;
+}
+
+main {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  gap: 1.5rem;
+}
+
+aside {
+  flex: 1;
+}
+
+footer {
+  padding: 20px;
+  color: #fff;
+  background-color: #d1a506;
+}
+
+h2 {
+  color: #d1a506;
+  margin-top: 50px;
+}
+
+section {
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+}
+
+.news-title {
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #d1a506;
+  margin-bottom: 20px;
+}
+
+.news-title:hover {
+  color: #d1a506;
+}
+
+.featured-image {
+  max-width: 200px;
+  height: auto;
+  margin-right: 10px;
+}
+
+#content {
+  flex: 5;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 1rem 2rem;
+}
+
+.jumbotron {
+  font-size: 20px;
+  padding: 120px;
+  background: url("/static/images/bg-home.png");
+  text-align: center;
+  color: white;
+}
+
+.info header {
+  text-align: center;
+}
+
+.info img {
+  width: 200px;
+}
+
+.card {
+  box-shadow: 0 2px 8px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+  main {
+    flex-flow: column nowrap;
+  }
+
+  main aside {
+    align-self: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  nav ul {
+    justify-content: center;
+  }
+
+  main aside {
+    align-self: stretch;
+  }
+}

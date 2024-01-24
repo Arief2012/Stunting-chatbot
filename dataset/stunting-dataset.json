@@ -1,0 +1,639 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "hallo",
+                "hai",
+                "halo",
+                "hei",
+                "hi",
+                "hy",
+                "helo"
+            ],
+            "responses": [
+                "Hay, Ada yang bisa saya bantu?",
+                "Hello, Ada yang bisa saya bantu mengenai infomasi tentang Stunting?",
+                "Hai, apa kabar. Ada yang dapat saya bantu tentang informasi tentang stunting?"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Terimakasih",
+                "makasih",
+                "Terimakasih banyak"
+            ],
+            "responses": [
+                "Sama-sama, senang bisa membantu anda!",
+                "Terima kasih kembali, semoga informasi yang kami berikan bermanfaat.",
+                "Tidak ada masalah, senang bisa memberikan bantuan.",
+                "Senang bisa membantu, silakan hubungi kami lagi jika ada pertanyaan lain."
+            ]
+        },
+        {
+            "tag": "Goodbye",
+            "patterns": [
+                "Sampai jumpa",
+                "Goodbye",
+                "Dadah",
+                "Selamat tinggal",
+                "Bye"
+            ],
+            "responses": [
+                "Sampai jumpa lagi. Jangan ragu untuk kembali jika ada pertanyaan tentang stunting.",
+                "Selamat tinggal! Jika ada pertanyaan lain, kami di sini untuk membantu.",
+                "Terima kasih telah mengunjungi kami. Sampai jumpa!"
+            ]
+        },
+        {
+            "tag": "pengertian_stunting",
+            "patterns": [
+                "Apa pengertian stunting?",
+                "Saya ingin tahu tentang stunting",
+                "Mengapa anak bisa mengalami stunting?",
+                "Cara mengenali stunting",
+                "Bagaimana tahu anak stunting?"
+            ],
+            "responses": [
+                "Stunting adalah gangguan pertumbuhan dan perkembangan anak akibat kekurangan gizi kronis dan infeksi berulang, yang ditandai dengan panjang atau tinggi badannya berada di bawah standar. Stunting dapat terjadi mulai janin masih dalam kandungan dan baru nampak saat anak berusia dua tahun."
+            ]
+        },
+        {
+            "tag": "pencegahan_stunting",
+            "patterns": [
+                "Bagaimana cara mencegah stunting?",
+                "Pencegahan stunting pada balita",
+                "Apa langkah-langkah pencegahan stunting",
+                "Cara mencegah stunting"
+            ],
+            "responses": [
+                "Anda dapat mencegah stunting pada anak balita dengan memberikan makanan bergizi, perhatian yang cukup terhadap kesehatan dan kebersihan, serta berkonsultasi dengan tenaga medis untuk pemantauan pertumbuhan anak secara teratur. Jangan ragu untuk bertanya jika Anda memerlukan informasi lebih lanjut."
+            ]
+        },
+        {
+            "tag": "gejala_stunting",
+            "patterns": [
+                "Apa gejala stunting pada anak?",
+                "Cara mengenali stunting",
+                "Tanda-tanda stunting",
+                "Bagaimana tahu anak stunting?"
+            ],
+            "responses": [
+                "Stunting dapat dikenali melalui gejala berupa tinggi badan anak yang lebih pendek dari yang seharusnya, proporsi tubuh yang tampak normal tetapi anak terlihat lebih muda atau kecil untuk usianya, berat badan yang rendah untuk usianya, dan pertumbuhan tulang yang tertunda. Gejala ini mengindikasikan masalah gizi yang serius yang dapat memengaruhi perkembangan fisik dan kognitif anak. Pengenalan dan penanganan stunting sejak dini sangat penting untuk memastikan anak tumbuh dan berkembang dengan baik."
+            ]
+        },
+        {
+            "tag": "Dampak_stunting",
+            "patterns": [
+                "Apa saja dampak dari stunting?",
+                "Dampak jangka panjang stunting",
+                "Apa dampak buruk dari stunting?",
+                "Dampak dari stunting adalah"
+            ],
+            "responses": [
+                "Stunting yang tidak ditangani dengan baik akan memiliki dampak jangka panjang yang signifikan pada anak. Dampak-dampak tersebut meliputi kesulitan belajar dan perkembangan mental, sistem kekebalan tubuh yang lemah, peningkatan risiko penyakit metabolik seperti obesitas dan diabetes saat dewasa, serta risiko terhadap masalah kardiovaskular seperti penyakit jantung."
+            ]
+        },
+        {
+            "tag": "Penyebab_stunting",
+            "patterns": [
+                "Faktor penyebab stunting apa saja?",
+                "penyebab dari stunting apa?",
+                "Faktor apa yang menyebabkan stunting?",
+                "Apa faktor penyebab stunting?"
+            ],
+            "responses": [
+                "Stunting, yaitu kondisi gangguan pertumbuhan fisik dan perkembangan anak, disebabkan oleh beragam faktor. Beberapa faktor utama meliputi: \n1.Kekurangan Gizi: Kurangnya asupan vitamin, mineral, keragaman pangan, dan protein hewani pada ibu dan anak. \n2. Ibu yang Kurang Nutrisi: Kondisi gizi buruk pada ibu selama kehamilan dan laktasi berdampak pada pertumbuhan anak.\n3.Infeksi: Masalah kesehatan seperti diare, infeksi saluran pernafasan, dan kecacingan dapat menghambat pertumbuhan anak. \n4.Faktor Sosio-Ekonomi: Pendapatan rendah keluarga memengaruhi akses terhadap makanan bergizi. \n5.Pelayanan Kesehatan Terbatas: Keterbatasan akses ke layanan kesehatan, sanitasi, dan air bersih berkontribusi pada stunting. \nFaktor Lain: Infeksi pada ibu, kehamilan remaja, gangguan mental pada ibu, jarak kelahiran anak yang pendek, dan hipertensi juga memengaruhi stunting."
+            ]
+        },
+        {
+            "tag": "peran_asi",
+            "patterns": [
+                "Seberapa penting asi dalam pencegahan stunting?",
+                "Apakah asi penting?",
+                "Apa kandungan pada asi?",
+                "Bagaimana peran asi untuk pencegahan stunting?"
+            ],
+            "responses": [
+                "ASI memiliki peran yang sangat penting dalam pencegahan stunting pada anak. ASI mengandung nutrisi lengkap dan seimbang yaitu protein, lemak, karbohidrat, vitamin, dan mineral yang dibutuhkan untuk pertumbuhan tulang, otot, dan perkembangan otak yang optimal. Selain itu, ASI juga mengandung antibodi yang membantu melindungi anak dari infeksi, yang dapat menghambat pertumbuhan jika terjadi infeksi berulang. Karena itulah, memberikan ASI eksklusif selama enam bulan pertama kehidupan anak dan terus memberikan ASI bersama makanan pendamping hingga usia dua tahun atau lebih sangat penting untuk mencegah stunting dan memastikan pertumbuhan yang sehat."
+            ]
+        },
+        {
+            "tag": "Asi_eksklusif",
+            "patterns": [
+                "Asi eksklusif adalah",
+                "Pengertian asi eksklusif ",
+                "Asi eksklusif itu apa?",
+                "Apa yang dimaksud dengan asi eksklusif?"
+            ],
+            "responses": [
+                "ASI eksklusif adalah pemberian ASI tanpa suplementasi makanan maupun minuman lain kecuali obat, yang diberikan langsung dari ibu kepada bayi selama 6 bulan pertama kehidupan. ASI eksklusif sangat penting bagi perkembangan dan pertumbuhan bayi hingga besar. ASI mengandung nutrisi yang cukup banyak dan bersifat spesifik pada setiap ibu. Beberapa contoh diantaranya, kolostrum (ASI pada hari 1-5) kaya protein, laktosa ASI sebagai sumber karbohidrat diserap lebih baik dibanding yang terdapat di dalam susu formula. ASI juga dapat mentransport nutrien, meningkatkan imunitas, merusak patogen dan berpengaruh pada system biokimiawi tubuh manusia. "
+            ]
+        },
+        {
+            "tag": "MP-ASI",
+            "patterns": [
+                "Apa itu MP-ASI?",
+                "Apa pengertian makanan pendamping air susu ibu atau MP_ASI?",
+                "Apa yang dimaksud MP-ASI?",
+                "MP-ASI adalah"
+            ],
+            "responses": [
+                "Makanan Pendamping Air Susu Ibu (MP-ASI) merupakan makanan yang diberikan kepada bayi selain ASI sebagai pendamping ASI guna menunjang pertumbuhan pada bayi. Pemberian MP-ASI dilakukan secara bertahap, artinya mulai dari makanan yang bertekstur lembut, semi-lembut, dan makanan padat untuk usia di atasnya. MP-ASI dapat berupa makanan padat seperti puree buah, sayuran, nasi, atau sereal yang sesuai dengan usia dan kemampuan makan bayi. Pemberian MP-ASI dilakukan bersamaan dengan ASI untuk memastikan bahwa bayi masih menerima manfaat nutrisi dari ASI sambil mulai mengenalkan mereka pada makanan padat. Tujuan dari pemberian MP-ASI adalah untuk membantu bayi memenuhi kebutuhan nutrisinya dan memungkinkan pertumbuhan dan perkembangan yang sehat."
+            ]
+        },
+        {
+            "tag": "Gizi_saat_kehamilan",
+            "patterns": [
+                "Apakah gizi saat hamil penting?",
+                "Apa saja makanan bergizi saat hamil?",
+                "Seberapa penting gizi saat kehamilan?",
+                "Mengapa gizi saat hamil penting?"
+            ],
+            "responses": [
+                "Gizi selama kehamilan merupakan salah satu kunci penting dalam pencegahan stunting pada anak. Kekurangan gizi selama kehamilan dapat menghambat pertumbuhan janin, meningkatkan risiko stunting, dan mempengaruhi perkembangan otak serta kesehatan anak. Pada saat kehamilan sebaiknya mengonsumsi makanan bergizi seperti sayuran berdaun hijau, daging merah, ikan, telur, kacang-kacangan, susu, dan produk susu. Makanan ini mengandung asam folat, zat besi, kalsium, protein, serta vitamin dan mineral penting yang mendukung pertumbuhan janin yang sehat."
+            ]
+        },
+        {
+            "tag": "Pola_makan",
+            "patterns": [
+                "Bagaimana pola dapat membantu mencegah stunting pada anak balita?",
+                "Bagaimana Pola makan yang baik?",
+                "Pola makan untuk mencegah stunting.",
+                "Cara mengatur pola makan?"
+            ],
+            "responses": [
+                "Pola makan yang tepat untuk mencegah stunting pada anak balita adalah pola makan yang seimbang dan kaya akan nutrisi. Variasi makanan, seperti berbagai jenis buah-buahan, sayuran, biji-bijian, dan protein, sangat dianjurkan untuk memastikan anak mendapatkan semua nutrisi yang dibutuhkan. Hindari makanan cepat saji dan makanan tinggi gula, serta pastikan porsi makanan sesuai dengan kebutuhan anak. Dengan menjaga pola makan yang sehat dapat membantu anak tumbuh dengan baik dan mencegah stunting yang dapat memengaruhi perkembangan fisik dan mental mereka."
+            ]
+        },
+        {
+            "tag": "Sulit_makan",
+            "patterns": [
+                "Bagaimana mengatasi anak yang sulit makan?",
+                "Cara agar anak tidak sulit makan",
+                "Anak sulit makan kenapa?",
+                "Mengatasi anak sulit makan."
+            ],
+            "responses": [
+                "Mengatasi anak yang sulit makan dapat dilakukan dengan pendekatan hati-hati dan sabar. Pertama, identifikasi penyebabnya, seperti masalah fisik atau psikologis pada. Ciptakan lingkungan makan yang positif dan menyenangkan. Berikan pilihan makanan seimbang, biarkan anak berpartisipasi dalam memilih, dan hindari tekanan berlebihan. Ingatlah bahwa setiap anak unik, dan perubahan pola makan memerlukan waktu. Kesabaran dan konsistensi adalah kunci."
+            ]
+        },
+        {
+            "tag": "Kategori_stunting",
+            "patterns": [
+                "Apakah stunting memiliki kategori?",
+                "Apa saja kategori stunting?",
+                "Apakah terdapat kategori stunting?",
+                "Pembagian kategori stunting apa ada?"
+            ],
+            "responses": [
+                "Menurut Ikatan Dokter Spesialis Anak Indonesia, stunting tidak secara khusus dibagi menjadi kategori. Stunting merujuk pada status gizi bayi berdasarkan panjang badan menurut umur (PB/U) atau tinggi badan menurut umur (TB/U) pada kurva pertumbuhan WHO. Seorang bayi diukur status gizinya dengan mengamati berat badan dan tinggi badannya. Stunting terjadi jika panjang/tinggi badan berdasarkan umur berada di bawah z-score -2SD pada kurva pertumbuhan WHO dan memiliki status gizi kurang berdasarkan berat badan."
+            ]
+        },
+        {
+            "tag": "Imunisasi ",
+            "patterns": [
+                "Apa manfaat utama dari imunisasi bagi anak-anak?",
+                "Bagaimana imunisasi dapat melindungi anak dari risiko kematian?",
+                "Apa efek positif imunisasi terhadap sistem kekebalan tubuh anak?",
+                "Pentingkah imunisasi untuk anak?",
+                "Imunisasi untuk stunting",
+                "Apa manfaat imunisasi?"
+            ],
+            "responses": [
+                "Imunisasi merupakan salah satu tindakan untuk meningkatkan kekebalan tubuh terhadap suatu penyakit. Imunisasi secara garis besar memiliki tiga manfaat, yakni melindungi anak dari risiko kematian, efektif mencegah penyakit, dan melindungi orang lain. Dengan demikian, imunisasi penting dilakukan bagi anak-anak. Setelah mendapatkan imunisasi, sistem imun anak bekerja lebih baik melawan bakteri, virus, serta kuman penyebab penyakit. Sementara, anak yang tidak diimunisasi berisiko lebih besar tertular penyakit berbahaya dan mengalami komplikasi parah."
+            ]
+        },
+        {
+            "tag": "Perbedaan_stunting_dan_wasting",
+            "patterns": [
+                "Apa perbedaan antara stunting dan  wasting pada anak?",
+                "Apakah stunting berbeda dengan wasting?",
+                "Yang membedakan stunting dan wasting apa?",
+                "Apakah wasting sama dengan stunting?"
+            ],
+            "responses": [
+                "Stunting dan wasting merupakan dua kondisi masalah gizi anak yang dapat mempengaruhi pertumbuhan anak. Stunting terjadi ketika anak memiliki tinggi badan lebih pendek dari anak seusianya, sementara wasting terjadi ketika anak memiliki berat badan rendah untuk tinggi badan dan/atau lingkar lengan atas (LiLA) kecil. Wasting biasanya disebabkan oleh asupan makanan yang tidak memadai dan infeksi yang sering. Sebaliknya, stunting adalah masalah gizi jangka panjang yang menunjukkan pertumbuhan yang terhambat. Kedua kondisi ini perlu mendapat perhatian serius untuk memastikan pertumbuhan dan perkembangan anak yang sehat."
+            ]
+        },
+        {
+            "tag": "Pengaruh_kognitif",
+            "patterns": [
+                "Apa pengaruh stunting terhadap perkembangan kognitif pada anak?",
+                "Apakah stunting dapat menyebabkan penurunan nilai kognitif?",
+                "Bagaimana stunting memengaruhi kemampuan kognitif anak dalam belajar?",
+                "Apakah gangguan kognitif akibat stunting dapat berlangsung hingga dewasa?"
+            ],
+            "responses": [
+                "Anak yang mengalami stunting bisa mengalami penurunan 7% pada perkembangan kemampuan berpikir dan belajar dibandingkan dengan anak yang tidak mengalami stunting. Stunting memiliki dampak negatif pada kemampuan anak dalam memahami pelajaran dan dapat menyebabkan penurunan nilai pelajaran. Gangguan perkembangan kognitif yang disebabkan oleh stunting juga bisa berlangsung hingga dewasa. Oleh karena itu, mencegah stunting melalui asupan gizi yang baik, perawatan kesehatan yang baik, dan pertumbuhan yang optimal sangat penting untuk memastikan perkembangan kognitif anak yang sehat. Jika ada pertanyaan lebih lanjut, jangan ragu untuk bertanya."
+            ]
+        },
+        {
+            "tag": "Pertumbuhan_Optimal ",
+            "patterns": [
+                "Apa yang dimaksud dengan pertumbuhan optimal pada anak?",
+                "Bagaimana mencapai pertumbuhan optimal pada anak?",
+                "Apa faktor-faktor yang mendukung pertumbuhan optimal?",
+                "Faktor pendukung pertumbuhan optimal pada anak apa saja?"
+            ],
+            "responses": [
+                "Pertumbuhan optimal pada anak merujuk pada kondisi di mana anak tumbuh dan berkembang sesuai dengan standar pertumbuhan yang sehat. Hal ini mencakup pertumbuhan fisik, kognitif, dan emosional yang sesuai dengan usia dan tahap perkembangan anak. Untuk mencapai pertumbuhan optimal, faktor-faktor seperti nutrisi yang memadai, perawatan kesehatan yang baik, lingkungan yang mendukung, dan stimulasi yang sesuai dengan usia sangat penting. Dengan memastikan kondisi-kondisi ini, anak dapat mencapai potensinya secara penuh dan mengalami pertumbuhan yang optimal."
+            ]
+        },
+        {
+            "tag": "Peran_Keluarga",
+            "patterns": [
+                "peran keluarga dalam mencegah stunting pada anak",
+                "bagaimana peran keluarga dapat membantu mencegah stunting",
+                "peran orang tua dalam pencegahan stunting anak",
+                "yang harus dilakukan keluarga untuk mencegah stunting",
+                "apakah peran keluarga penting dalam membantu mencegah stunting"
+            ],
+            "responses": [
+                "Keluarga memiliki peran yang sangat penting dalam mencegah stunting pada anak. Mereka dapat membantu dengan memberikan asupan gizi yang seimbang, memastikan akses ke layanan kesehatan yang baik, menciptakan lingkungan yang bersih dan higienis, serta memberikan stimulasi yang baik untuk perkembangan anak. Orang tua perlu memiliki pengetahuan tentang pola asuh yang baik dan mendukung pertumbuhan anak. Dengan melibatkan keluarga dalam upaya pencegahan stunting, dapat memastikan bahwa anak mendapatkan dukungan penuh untuk tumbuh dan berkembang dengan baik."
+            ]
+        },
+        {
+            "tag": "Peran_Masyarakat ",
+            "patterns": [
+                "Apa peran masyarakat dalam mendukung pencegahan stunting?",
+                "Bagaimana masyarakat dapat berkontribusi dalam menciptakan lingkungan bebas stunting?",
+                "Apakah partisipasi masyarakat penting dalam program pencegahan stunting?",
+                "Apa yang harus dilakukan keluarga untuk mencegah stunting?"
+            ],
+            "responses": [
+                "Keluarga memiliki peran yang sangat penting dalam mencegah stunting pada anak. Mereka dapat membantu dengan memberikan asupan gizi yang seimbang, memastikan akses ke layanan kesehatan yang baik, menciptakan lingkungan yang bersih dan higienis, serta memberikan stimulasi yang baik untuk perkembangan anak. Orang tua perlu memiliki pengetahuan tentang pola asuh yang baik dan mendukung pertumbuhan anak. Dengan melibatkan keluarga dalam upaya pencegahan stunting, dapat memastikan bahwa anak mendapatkan dukungan penuh untuk tumbuh dan berkembang dengan baik."
+            ]
+        },
+        {
+            "tag": "Pentingnya_Makanan_Bergizi",
+            "patterns": [
+                "Apa pentingnya konsumsi makanan bergizi dalam mencegah stunting?",
+                "Bagaimana makanan bergizi dapat mendukung pertumbuhan anak?",
+                "Apa dampak kurangnya konsumsi makanan bergizi terhadap stunting?",
+                "Apakah makanan bergizi penting sebagai pencegahan stunting?"
+            ],
+            "responses": [
+                "Makanan bergizi sangatlah penting dalam mencegah stunting pada anak. Makanan bergizi memberikan nutrisi esensial yang diperlukan untuk pertumbuhan tulang, otot, dan perkembangan otak anak. Kurangnya konsumsi makanan bergizi dapat menyebabkan kekurangan gizi, yang merupakan faktor risiko utama stunting. Oleh karena itu, penting untuk memastikan anak mendapatkan makanan yang kaya akan vitamin, mineral, protein, dan nutrisi penting lainnya untuk mendukung pertumbuhan optimal."
+            ]
+        },
+        {
+            "tag": "Peran_Protein_Bagaimana ",
+            "patterns": [
+                "peran protein dalam mencegah stunting pada anak?",
+                "Mengapa asupan protein yang cukup penting untuk pertumbuhan anak?",
+                "Apa dampak kekurangan protein terhadap pertumbuhan fisik anak? ",
+                "Apakah kekurangan protein dapat meningkatkan resiko stunting?"
+            ],
+            "responses": [
+                "Protein memainkan peran kunci dalam mencegah stunting karena merupakan salah satu komponen utama untuk pembentukan jaringan tubuh, termasuk otot dan tulang. Asupan protein yang cukup penting untuk mendukung pertumbuhan dan perkembangan fisik anak. Kekurangan protein dapat menghambat pertumbuhan tulang dan otot, sehingga memengaruhi tinggi badan anak dan meningkatkan risiko stunting."
+            ]
+        },
+        {
+            "tag": "Pentingnya_Micronutrien",
+            "patterns": [
+                "Apa pentingnya konsumsi micronutrien dalam pencegahan stunting?",
+                "Bagaimana micronutrien dapat mendukung pertumbuhan anak?",
+                "Apa dampak kekurangan vitamin dan mineral terhadap pertumbuhan fisik anak?",
+                "Apakah vitamin dan meneral mempengaruhi pertumbuhan anak?"
+            ],
+            "responses": [
+                "Micronutrien, seperti vitamin dan mineral, memiliki peran penting dalam pencegahan stunting. Vitamin dan mineral mendukung berbagai fungsi tubuh termasuk pertumbuhan tulang, perkembangan otak, dan fungsi sistem kekebalan tubuh. Kekurangan vitamin dan mineral dapat menghambat pertumbuhan fisik anak, sehingga memengaruhi tinggi badan dan meningkatkan risiko stunting."
+            ]
+        },
+        {
+            "tag": " Peran_Zat_Besi",
+            "patterns": [
+                "Apa peran zat besi dalam mencegah stunting pada anak?",
+                "Mengapa kecukupan zat besi penting untuk pertumbuhan optimal?",
+                "Apa dampak kekurangan zat besi terhadap pertumbuhan fisik anak? ",
+                "Kenapa zat besi penting bagi tubuh?"
+            ],
+            "responses": [
+                "Zat besi memiliki peran penting dalam mencegah stunting karena diperlukan untuk pembentukan hemoglobin dan transportasi oksigen ke seluruh tubuh. Kecukupan zat besi penting untuk pertumbuhan optimal anak, dan kekurangan zat besi dapat menyebabkan anemia dan gangguan pertumbuhan. Oleh karena itu, asupan zat besi yang cukup melalui makanan sangat penting untuk mencegah stunting."
+            ]
+        },
+        {
+            "tag": "Peran_Antibodi",
+            "patterns": [
+                "Apa peran antibodi dalam pencegahan stunting pada anak?",
+                "Bagaimana antibodi membantu melindungi anak dari infeksi dan gangguan pertumbuhan?",
+                "Apa dampak kekurangan antibodi terhadap pertumbuhan fisik anak? ",
+                "Manfaat dari antibodi apa sih?"
+            ],
+            "responses": [
+                "Antibodi memiliki peran penting dalam pencegahan stunting karena membantu melindungi anak dari infeksi yang dapat mengganggu pertumbuhan. Keberadaan antibodi membantu sistem kekebalan tubuh anak melawan berbagai infeksi yang dapat memengaruhi pertumbuhan fisik. Kekurangan antibodi dapat meningkatkan risiko infeksi dan berkontribusi pada risiko stunting."
+            ]
+        },
+        {
+            "tag": "Pentingnya_Kalsium",
+            "patterns": [
+                "Apa pentingnya asupan kalsium dalam pencegahan stunting?",
+                "Bagaimana kalsium mendukung pertumbuhan dan perkembangan tulang anak?",
+                "Apa dampak kekurangan kalsium terhadap pertumbuhan fisik anak?",
+                "Manfaat kalsium apa?"
+            ],
+            "responses": [
+                "Kalsium memiliki peran penting dalam pencegahan stunting karena merupakan komponen utama untuk pembentukan dan pengerasan tulang. Asupan kalsium yang cukup mendukung pertumbuhan dan perkembangan tulang anak. Kekurangan kalsium dapat menyebabkan pertumbuhan tulang yang terhambat, sehingga memengaruhi tinggi badan anak dan meningkatkan risiko stunting."
+            ]
+        },
+        {
+            "tag": "Pentingnya_Asupan_Vitamin_A",
+            "patterns": [
+                "Apa pentingnya asupan vitamin A dalam pencegahan stunting?",
+                "Bagaimana vitamin A mendukung kesehatan mata dan pertumbuhan anak?",
+                "Apa dampak kekurangan vitamin A terhadap pertumbuhan fisik anak?",
+                "Apakah vitamin A dibutuhkan dalam pertumbuhan dalam pencegahan stunting?",
+                "Apakah vitamin A mempengaruhi perkembangan anak?"
+            ],
+            "responses": [
+                "Asupan vitamin A memainkan peran krusial dalam pencegahan stunting karena vitamin ini essensial untuk pertumbuhan sel dan perkembangan jaringan tubuh anak. Vitamin A tidak hanya mendukung kesehatan mata dengan berperan dalam pembentukan pigmen visual, tetapi juga memainkan peran penting dalam pertumbuhan fisik anak. Kekurangan vitamin A dapat berdampak negatif pada penglihatan, kekebalan tubuh, dan pertumbuhan fisik, sehingga memastikan asupan yang cukup menjadi langkah kunci dalam mencegah stunting."
+            ]
+        },
+        {
+            "tag": "Pentingnya_Asupan_Vitamin_D ",
+            "patterns": [
+                "Apa pentingnya asupan vitamin D dalam pencegahan stunting?",
+                "Bagaimana vitamin D mendukung penyerapan kalsium dan pertumbuhan tulang anak?",
+                "Apa dampak kekurangan vitamin D terhadap pertumbuhan fisik anak?",
+                "Apakah vitamin D sangat dibutuhkan dalam pertumbuhandalam pencegahan stunting?",
+                "Manfaat Vitamin D?"
+            ],
+            "responses": [
+                "Asupan vitamin D memiliki peran signifikan dalam pencegahan stunting karena vitamin ini mendukung penyerapan kalsium yang esensial untuk pertumbuhan tulang anak. Vitamin D tidak hanya mengoptimalkan penyerapan kalsium dari saluran pencernaan, tetapi juga mengatur kadar kalsium dalam darah, mendukung kesehatan tulang, dan mencegah gangguan pertumbuhan. Kekurangan vitamin D dapat menghambat penyerapan kalsium, meningkatkan risiko stunting, sehingga memastikan cukupnya asupan vitamin D menjadi kunci dalam mendukung pertumbuhan anak."
+            ]
+        },
+        {
+            "tag": " Peran_Antibodi",
+            "patterns": [
+                "Apa peran antibodi dalam pencegahan stunting pada anak?",
+                "Bagaimana antibodi membantu melindungi anak dari gangguan pertumbuhan stunting",
+                "Apa dampak kekurangan antibodi terhadap pertumbuhan fisik anak?",
+                "Antibodi kenapa dibutuhkan dalam pencegahan stunting?",
+                "Kegunaan Antibodi buat apa dalam pencegahan stunting? "
+            ],
+            "responses": [
+                "Peran antibodi sangat penting dalam pencegahan stunting dengan melindungi anak dari infeksi yang dapat mengganggu pertumbuhan. Antibodi membantu memastikan kesehatan anak dengan mengenali dan menghancurkan patogen, menjaga fungsi kekebalan tubuh, dan mencegah dampak negatif infeksi terhadap pertumbuhan fisik. Kekurangan antibodi dapat meningkatkan kerentanan terhadap infeksi, sehingga menjaga tingkat kekebalan tubuh anak menjadi aspek penting dalam pencegahan stunting."
+            ]
+        },
+        {
+            "tag": "Teknik_Pemberian_Makanan",
+            "patterns": [
+                "Bagaimana teknik pemberian makanan yang benar dapat membantu mencegah stunting pada anak?",
+                "Apa saja metode pemberian makanan yang efektif untuk asupan gizi optimal pada anak?",
+                "Bagaimana mengatasi anak yang sulit makan dengan menerapkan teknik pemberian makanan yang tepat?",
+                "Apakah variasi dalam menu makanan memiliki peran penting dalam mencegah stunting pada anak?",
+                "Bagaimana mengajarkan orang tua tentang teknik pemberian makanan yang seimbang untuk anak?"
+            ],
+            "responses": [
+                "Teknik pemberian makanan yang benar sangat penting dalam mencegah stunting pada anak. Pemberian makanan yang seimbang, mengandung berbagai nutrisi penting, dan disesuaikan dengan kebutuhan usia anak dapat memastikan asupan gizi optimal. Metode efektif melibatkan pengenalan makanan baru secara bertahap, menciptakan lingkungan makan yang positif, dan memberikan variasi menu yang menarik bagi anak. Selain itu, pendekatan kreatif dalam memberikan makanan, seperti melibatkan anak dalam proses memasak, dapat meningkatkan minat mereka terhadap makanan bergizi."
+            ]
+        },
+        {
+            "tag": "Pentingnya_Aktivitas_Fisik",
+            "patterns": [
+                "Seberapa penting aktivitas fisik dalam mendukung pertumbuhan anak dan mencegah stunting?",
+                "Apa jenis aktivitas fisik yang disarankan untuk anak-anak guna mencapai pertumbuhan optimal?",
+                "Bagaimana aktivitas fisik dapat mencegah stunting?",
+                "Apakah terdapat hubungan antara kurangnya aktivitas fisik dan peningkatan risiko stunting pada anak?",
+                "Aktivitas fisik dapat meningkatkan stunting?"
+            ],
+            "responses": [
+                "Aktivitas fisik Berperan penting dalam mendukung pertumbuhan anak dan mencegah stunting. Anak-anak perlu terlibat dalam berbagai jenis aktivitas fisik, seperti bermain lari, bersepeda, atau olahraga ringan, untuk meningkatkan kebugaran fisik dan mengembangkan otot serta tulang. Orang tua dapat berperan penting dengan mengintegrasikan aktivitas fisik ke dalam rutinitas sehari-hari anak. Kurangnya aktivitas fisik dapat meningkatkan risiko stunting, sehingga menjaga keaktifan anak menjadi langkah penting dalam upaya pencegahan."
+            ]
+        },
+        {
+            "tag": "Peran_Pemerintah",
+            "patterns": [
+                "Apa peran pemerintah dalam mendukung program pencegahan stunting di tingkat nasional?",
+                "Bagaimana kebijakan pemerintah dapat berkontribusi pada penanggulangan stunting?",
+                "Apakah terdapat kebijakan yang ditetapkan oleh pemerintah untuk meningkatkan gizi dan mencegah stunting?",
+                "Apa upaya yang diambil oleh pemerintah dalam pencegahan stunting?"
+            ],
+            "responses": [
+                "Pemerintah memiliki peran sentral dalam mendukung program pencegahan stunting di tingkat nasional. Melalui kebijakan kesehatan yang mendukung gizi anak, pemberian akses pelayanan kesehatan yang terjangkau, dan program edukasi untuk orang tua, pemerintah dapat menciptakan lingkungan yang mendukung pertumbuhan optimal. Kebijakan yang menitikberatkan pada pemenuhan gizi anak dan alokasi anggaran yang memadai dapat memberikan kontribusi signifikan dalam penanggulangan stunting."
+            ]
+        },
+        {
+            "tag": "Ketersediaan_Air_Bersih",
+            "patterns": [
+                "Mengapa ketersediaan air bersih berperan penting dalam pencegahan stunting?",
+                "Apa dampak kurangnya akses terhadap air bersih terhadap risiko infeksi dan pertumbuhan anak?",
+                "apa yang terjadi jika akses terhadap air bersih kurang?",
+                "Apa langkah-langkah yang dapat diambil oleh pemerintah untuk meningkatkan akses air bersih?",
+                "Mengapa ketersediaan air bersih mempengeruhi stunting?"
+            ],
+            "responses": [
+                "Ketersediaan air bersih memegang peran penting dalam pencegahan stunting. Air bersih menjadi faktor kunci dalam menjaga kebersihan, memasak, dan mencuci makanan dengan aman. Kurangnya akses terhadap air bersih dapat meningkatkan risiko infeksi, yang dapat menghambat pertumbuhan anak. Oleh karena itu, upaya untuk meningkatkan akses terhadap air bersih, melalui kebijakan pemerintah dan inisiatif masyarakat, dapat menjadi langkah krusial dalam pencegahan stunting."
+            ]
+        },
+        {
+            "tag": "Kesehatan_Mental_Anak",
+            "patterns": [
+                "Bagaimana kesehatan mental anak dapat berdampak pada pertumbuhan fisik anak?",
+                "Mengapa dukungan kesehatan mental berpengaruh dalam pertumbuhan fisik?",
+                "Apakah anak-anak yang mengalami stunting dipengaruhi oleh kesehatan mental?",
+                "Apakah kesehatan mental dapat mempengaruhi stunting?"
+            ],
+            "responses": [
+                "Kesehatan mental anak memiliki dampak signifikan pada pertumbuhan fisik, di mana dukungan kesehatan mental menjadi kunci dalam mencegah dampak negatif terhadap pola makan, aktivitas fisik, dan perkembangan keseluruhan anak. Kondisi psikologis yang tidak seimbang dapat mempengaruhi nafsu makan dan penyerapan nutrisi, berpotensi menyebabkan stunting. Oleh karena itu, menjaga kesehatan mental anak sangat penting untuk mencegah risiko stunting dan mempromosikan pertumbuhan yang optimal."
+            ]
+        },
+        {
+            "tag": "anak_pendek_vs_stunting",
+            "patterns": [
+                "Apakah anak yang pendek selalu stunting?",
+                "Apakah anak pendek termasuk stunting?",
+                "Apa perbedaan anak pendek dan stunting?"
+            ],
+            "responses": [
+                "Meski anak pendek atau sangat pendek bisa menjadi indikasi masalah gizi kronis, namun anak pendek belum tentu stunting. Diperlukan pemeriksaan lebih lanjut oleh tenaga kesehatan terlatih untuk menentukan apakah seorang anak mengalami stunting akibat masalah gizi kronis atau tidak."
+            ]
+        },
+        {
+            "tag": "apakah_stunting_penyakit",
+            "patterns": [
+                "Apakah stunting tergolong penyakit?",
+                "Stunting itu penyakit atau tidak?"
+            ],
+            "responses": [
+                "Stunting bukan penyakit, melainkan kondisi gagal tumbuh karena kurangnya asupan makanan dan infeksi berulang dalam jangka waktu tertentu (kronis)."
+            ]
+        },
+        {
+            "tag": "periode_emas",
+            "patterns": [
+                "Mengapa 1.000 Hari Pertama Kehidupan (1.000 HPK) seorang anak disebut sebagai periode emas?",
+                "Apa yang dimaksud dengan periode emas dalam pencegahan stunting?"
+            ],
+            "responses": [
+                "1.000 Hari Pertama Kehidupan disebut 'periode emas' karena pada masa itulah stunting dapat terjadi dan sekaligus dapat dicegah atau masih dapat dikoreksi. Jika tidak dicegah atau dikoreksi dalam kurun waktu tersebut, gangguan pertumbuhan maupun perkembangan akibat masalah gizi kronis umumnya akan menjadi permanen atau tidak dapat dikoreksi lagi."
+            ]
+        },
+        {
+            "tag": "faktor_resiko_stunting",
+            "patterns": [
+                "Apa yang menjadi faktor resiko/penyebab stunting sebagai indikasi masalah gizi kronis?",
+                "Apa saja faktor resiko stunting?",
+                "Penyebab anak mengalami stunting"
+            ],
+            "responses": [
+                "Ada dua kelompok faktor resiko/penyebab stunting sebagai indikasi masalah gizi kronis: Penyebab langsung, yaitu kurangnya asupan makanan bergizi dan infeksi berulang dalam jangka waktu tertentu (kronis). Penyebab tidak langsung, termasuk faktor akses terhadap makanan bergizi, pola asuh, akses ke layanan kesehatan, praktik hygiene, dan masalah kesehatan lingkungan."
+            ]
+        },
+        {
+            "tag": "stunting_pada_keluarga",
+            "patterns": [
+                "Apakah stunting hanya terjadi pada keluarga yang kurang mampu secara ekonomi?",
+                "Stunting terkait dengan kondisi ekonomi keluarga?"
+            ],
+            "responses": [
+                "Stunting tidak hanya terkait dengan masalah ekonomi keluarga. Baik anak dari keluarga yang mampu maupun tidak mampu secara ekonomi dapat berisiko mengalami stunting. Faktor lain seperti pola asuh, kondisi lingkungan, akses ke informasi gizi kesehatan, dll dapat menjadi faktor resiko stunting tanpa tergantung pada masalah ekonomi keluarga."
+            ]
+        },
+        {
+            "tag": "dampak_masalah_gizi_kronis",
+            "patterns": [
+                "Apa dampak dari masalah gizi kronis selain stunting?",
+                "Apa akibat kurang gizi kronis pada anak?",
+                "Gangguan apa yang mungkin dialami anak akibat masalah gizi kronis?"
+            ],
+            "responses": [
+                "Selain gangguan pertumbuhan yang diindikasikan oleh stunting, anak juga dapat mengalami gangguan perkembangan kognitif, motorik, dan sistem kekebalan tubuh. Gangguan ini dapat menyebabkan kesulitan belajar atau mudah terserang penyakit. Masalah gizi kronis yang tidak dicegah atau terlambat dikoreksi dapat meningkatkan risiko penyakit tidak menular di usia lebih lanjut, seperti diabetes, penyakit jantung, kanker, stroke, dan lain-lain."
+            ]
+        },
+        {
+            "tag": "pencegahan_dan_koreksi_stunting",
+            "patterns": [
+                "Apakah stunting dapat dicegah atau dikoreksi?",
+                "Bagaimana cara mencegah stunting?",
+                "Apakah stunting bisa diobati?"
+            ],
+            "responses": [
+                "Stunting dapat dicegah atau dikoreksi jika dilakukan sebelum atau selama periode emas. Intervensi dini, persiapan kondisi gizi dan kesehatan calon ibu, serta memastikan gizi yang cukup pada 1.000 Hari Pertama Kehidupan, yaitu sejak anak berada dalam kandungan hingga usia 2 tahun, merupakan langkah-langkah penting dalam pencegahan dan koreksi stunting."
+            ]
+        },
+        {
+            "tag": "daerah_prioritas_penurunan_stunting",
+            "patterns": [
+                "Berapa jumlah daerah prioritas penurunan stunting?",
+                "Daerah mana saja yang menjadi prioritas penurunan stunting?",
+                "Daerah berapa yang fokus pada penurunan stunting?"
+            ],
+            "responses": [
+                "Di tahun 2019, terdapat 160 kabupaten/kota prioritas percepatan pencegahan stunting. Di tahun 2020, jumlahnya bertambah menjadi 260, dan tahun 2021 menjadi 360 kabupaten/kota prioritas."
+            ]
+        },
+        {
+            "tag": "intervensi_penanganan_stunting",
+            "patterns": [
+                "Bagaimanakah intervensi dalam penanganan stunting?",
+                "Apa saja tindakan yang diambil untuk menangani stunting?",
+                "Bagaimana cara penanganan stunting?"
+            ],
+            "responses": [
+                "Intervensi dalam penanganan stunting melibatkan dua jenis: Intervensi Gizi Spesifik (berkontribusi 30%) ditujukan kepada anak dalam 1.000 Hari Pertama Kehidupan. Intervensi Gizi Sensitif (berkontribusi 70%) dilakukan melalui berbagai kegiatan pembangunan di luar sektor kesehatan, menyasar masyarakat umum, tidak hanya 1.000 HPK."
+            ]
+        },
+        {
+            "tag": "aksi_konvergensi",
+            "patterns": [
+                "Mengapa pelaksanaan Aksi Konvergensi mengikuti siklus tahunan di daerah?",
+                "Apa tujuan dari Aksi Konvergensi?",
+                "Kenapa Aksi Konvergensi dilakukan setiap tahun?"
+            ],
+            "responses": [
+                "Pelaksanaan Aksi Konvergensi mengikuti siklus tahunan di daerah agar hasilnya dapat dimanfaatkan untuk meningkatkan keterpaduan intervensi gizi melalui mekanisme reguler perencanaan, penganggaran, pelaksanaan, pemantauan, dan pengendalian pembangunan daerah."
+            ]
+        },
+        {
+            "tag": "isi_aksi_konvergensi",
+            "patterns": [
+                "Apa saja Aksi Konvergensi itu?",
+                "Bagaimana isi dari Aksi Konvergensi?",
+                "Apa yang dilibatkan dalam Aksi Konvergensi?"
+            ],
+            "responses": [
+                "Aksi Konvergensi terdiri dari 8 aksi, antara lain: Analisis Situasi, Rencana Kegiatan, Rembuk Stunting, Peraturan Bupati/Walikota tentang Peran Desa, Pembinaan KPM, Sistem Manajemen Data, Pengukuran dan Publikasi Stunting, serta Reviu Kinerja Tahunan."
+            ]
+        },
+        {
+            "tag": "aksi_konvergensi_percepatan",
+            "patterns": [
+                "Apa Aksi Konvergensi Percepatan Penurunan Stunting?",
+                "Bagaimana Aksi Konvergensi membantu percepatan penurunan stunting?",
+                "Apa peran Aksi Konvergensi dalam menangani stunting?"
+            ],
+            "responses": [
+                "Aksi Konvergensi atau Aksi Integrasi adalah instrumen dalam bentuk kegiatan untuk meningkatkan pelaksanaan integrasi intervensi gizi dalam pencegahan dan penurunan stunting. Aksi ini digunakan untuk meningkatkan kualitas pendekatan pelaksanaan program dan perilaku lintas sektor agar program dan kegiatan intervensi gizi dapat digunakan oleh keluarga sasaran dengan lebih efektif."
+            ]
+        },
+        {
+            "tag": "intervensi_gizi",
+            "patterns": [
+                "Mengapa intervensi gizi pencegahan dan penurunan stunting harus dilakukan secara konvergen?",
+                "Apa keuntungan dari intervensi gizi yang konvergen?",
+                "Mengapa intervensi gizi perlu terpadu?"
+            ],
+            "responses": [
+                "Efektivitas penurunan stunting ditentukan oleh seberapa menyeluruh atau terpadunya intervensi gizi yang menyasar lokasi dan kelompok sasaran prioritas. Pembelajaran dari negara-negara lain menunjukkan bahwa intervensi yang lengkap dan terpadu di lokasi dan kelompok sasaran prioritas dapat meningkatkan efektivitasnya."
+            ]
+        },
+        {
+            "tag": "konvergensi_definisi",
+            "patterns": [
+                "Apa yang dimaksud dengan konvergensi?",
+                "Bagaimana definisi konvergensi dalam konteks pencegahan stunting?",
+                "Konvergensi dalam pencegahan stunting itu apa?"
+            ],
+            "responses": [
+                "Konvergensi merujuk pada pendekatan penyampaian intervensi yang dilakukan secara terkoordinir, terintegrasi, dan bersama-sama untuk mencegah stunting kepada sasaran prioritas."
+            ]
+        },
+        {
+            "tag": "prevalensi_stunting",
+            "patterns": [
+                "Berapa angka prevalensi stunting di Indonesia?",
+                "Bagaimana kondisi prevalensi stunting di Indonesia?",
+                "Seberapa besar masalah stunting di Indonesia?"
+            ],
+            "responses": [
+                "Berdasarkan Studi Status Gizi Balita dari Badan Penelitian dan Pengembangan Kesehatan (Balitbangkes), prevalensi stunting Indonesia tahun 2019 sebesar 27,7%. Meskipun telah turun dari tahun sebelumnya, percepatan pencegahan stunting terus dilakukan untuk mencapai target penurunan prevalensi stunting 14% pada tahun 2024."
+            ]
+        },
+        {
+            "tag": "target_indikator_penurunan_stunting",
+            "patterns": [
+                "Apa target indikator utama dalam intervensi penurunan stunting terintegrasi atau konvergen?",
+                "Apa ukuran utama keberhasilan penurunan stunting?",
+                "Bagaimana kita mengukur keberhasilan intervensi penurunan stunting?"
+            ],
+            "responses": [
+                "Dalam penurunan stunting terintegrasi, indikator dampak utamanya adalah prevalensi stunting. Indikator capaian antara atau intermediate outcome melibatkan anemia pada ibu hamil dan remaja putri, Berat Badan Lahir Rendah (BBLR), ASI eksklusif, diare pada balita, kecacingan pada anak balita, dan gizi buruk pada anak balita."
+            ]
+        },
+        {
+            "tag": "lima_pilar_pencegahan_stunting",
+            "patterns": [
+                "Apakah 5 (lima) Pilar pencegahan stunting?",
+                "Apa saja komponen dari 5 Pilar pencegahan stunting?",
+                "Apa yang termasuk dalam 5 Pilar untuk mencegah stunting?"
+            ],
+            "responses": [
+                "5 Pilar pencegahan stunting melibatkan Komitmen dan visi kepemimpinan tertinggi negara, Kampanye nasional dan komunikasi perubahan perilaku, Konvergensi, koordinasi, dan konsolidasi program pusat, daerah, dan desa, Gizi dan ketahanan pangan, serta Pemantauan dan evaluasi."
+            ]
+        },
+        {
+            "tag": "peran_setwapres",
+            "patterns": [
+                "Apakah peran Sekretariat Wakil Presiden (Setwapres) dalam percepatan pencegahan stunting?",
+                "Bagaimana Setwapres terlibat dalam penanganan stunting?",
+                "Apa fungsi Setwapres dalam program pencegahan stunting?"
+            ],
+            "responses": [
+                "Setwapres bertugas mengkoordinasikan dan menyinkronkan program-program nasional, lokal, dan masyarakat dengan pendekatan multi-sektor melalui konvergensi program di semua tingkatan. Hal ini didasarkan pada Strategi Nasional Percepatan Pencegahan Anak Kerdil (Stunting)/Stranas Stunting yang mendorong pencegahan stunting berdasarkan 5 (lima) Pilar pencegahan stunting."
+            ]
+        }
+    ]
+}
