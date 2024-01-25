@@ -539,6 +539,28 @@
             ]
         },
         {
+            "tag": "aksi_konvergensi",
+            "patterns": [
+                "Mengapa pelaksanaan Aksi Konvergensi mengikuti siklus tahunan di daerah?",
+                "Apa tujuan dari Aksi Konvergensi?",
+                "Kenapa Aksi Konvergensi dilakukan setiap tahun?"
+            ],
+            "responses": [
+                "Pelaksanaan Aksi Konvergensi mengikuti siklus tahunan di daerah agar hasilnya dapat dimanfaatkan untuk meningkatkan keterpaduan intervensi gizi melalui mekanisme reguler perencanaan, penganggaran, pelaksanaan, pemantauan, dan pengendalian pembangunan daerah."
+            ]
+        },
+        {
+            "tag": "isi_aksi_konvergensi",
+            "patterns": [
+                "Apa saja Aksi Konvergensi itu?",
+                "Bagaimana isi dari Aksi Konvergensi?",
+                "Apa yang dilibatkan dalam Aksi Konvergensi?"
+            ],
+            "responses": [
+                "Aksi Konvergensi terdiri dari 8 aksi, antara lain: Analisis Situasi, Rencana Kegiatan, Rembuk Stunting, Peraturan Bupati/Walikota tentang Peran Desa, Pembinaan KPM, Sistem Manajemen Data, Pengukuran dan Publikasi Stunting, serta Reviu Kinerja Tahunan."
+            ]
+        },
+        {
             "tag": "aksi_konvergensi_percepatan",
             "patterns": [
                 "Apa Aksi Konvergensi Percepatan Penurunan Stunting?",
@@ -558,6 +580,17 @@
             ],
             "responses": [
                 "Efektivitas penurunan stunting ditentukan oleh seberapa menyeluruh atau terpadunya intervensi gizi yang menyasar lokasi dan kelompok sasaran prioritas. Pembelajaran dari negara-negara lain menunjukkan bahwa intervensi yang lengkap dan terpadu di lokasi dan kelompok sasaran prioritas dapat meningkatkan efektivitasnya."
+            ]
+        },
+        {
+            "tag": "konvergensi_definisi",
+            "patterns": [
+                "Apa yang dimaksud dengan konvergensi?",
+                "Bagaimana definisi konvergensi dalam konteks pencegahan stunting?",
+                "Konvergensi dalam pencegahan stunting itu apa?"
+            ],
+            "responses": [
+                "Konvergensi merujuk pada pendekatan penyampaian intervensi yang dilakukan secara terkoordinir, terintegrasi, dan bersama-sama untuk mencegah stunting kepada sasaran prioritas."
             ]
         },
         {
