@@ -421,8 +421,7 @@
                 "Mengapa ketersediaan air bersih berperan penting dalam pencegahan stunting?",
                 "Dampak kurangnya akses terhadap air bersih terhadap risiko infeksi dan pertumbuhan anak?",
                 "apa yang terjadi jika akses terhadap air bersih kurang?",
-                "Apa langkah-langkah yang diambil oleh pemerintah untuk meningkatkan akses air bersih?",
-                "Mengapa ketersediaan air bersih mempengeruhi stunting?"
+                "Apa langkah-langkah yang diambil oleh pemerintah untuk meningkatkan akses air bersih?"
             ],
             "responses": [
                 "Ketersediaan air bersih memegang peran penting dalam pencegahan stunting. Air bersih menjadi faktor kunci dalam menjaga kebersihan, memasak, dan mencuci makanan dengan aman. Kurangnya akses terhadap air bersih dapat meningkatkan risiko infeksi, yang dapat menghambat pertumbuhan anak. Oleh karena itu, upaya untuk meningkatkan akses terhadap air bersih, melalui kebijakan pemerintah dan inisiatif masyarakat, dapat menjadi langkah krusial dalam pencegahan stunting."
@@ -599,8 +598,7 @@
             "patterns": [
                 "Berapa angka prevalensi stunting di Indonesia?",
                 "Bagaimana kondisi prevalensi stunting di Indonesia?",
-                "Seberapa besar masalah stunting di Indonesia?",
-                "prevelensi stunting indonesia"
+                "Seberapa besar masalah stunting di Indonesia?"
             ],
             "responses": [
                 "Berdasarkan Studi Status Gizi Balita dari Badan Penelitian dan Pengembangan Kesehatan (Balitbangkes), prevalensi stunting Indonesia tahun 2019 sebesar 27,7%. Meskipun telah turun dari tahun sebelumnya, percepatan pencegahan stunting terus dilakukan untuk mencapai target penurunan prevalensi stunting 14% pada tahun 2024."
@@ -611,7 +609,7 @@
             "patterns": [
                 "Apa target indikator utama dalam intervensi penurunan stunting konvergen?",
                 "Apa ukuran utama keberhasilan penurunan stunting?",
-                "Bagaimana kita mengukur keberhasilan intervensi penurunan stunting?"
+                "Target apa yang ingin dicapai melalui intervensi stunting"
             ],
             "responses": [
                 "Dalam penurunan stunting terintegrasi, indikator dampak utamanya adalah prevalensi stunting. Indikator capaian antara atau intermediate outcome melibatkan anemia pada ibu hamil dan remaja putri, Berat Badan Lahir Rendah (BBLR), ASI eksklusif, diare pada balita, kecacingan pada anak balita, dan gizi buruk pada anak balita."
@@ -622,8 +620,7 @@
             "patterns": [
                 "Apakah 5 (lima) Pilar pencegahan stunting?",
                 "Apa saja komponen dari 5 Pilar stunting?",
-                "Apa yang termasuk dalam 5 Pilar stunting?",
-                "komponen dari 5 pilar pencegahan stunting apa?"
+                "Apa yang termasuk dalam 5 Pilar stunting?"
             ],
             "responses": [
                 "5 Pilar pencegahan stunting melibatkan Komitmen dan visi kepemimpinan tertinggi negara, Kampanye nasional dan komunikasi perubahan perilaku, Konvergensi, koordinasi, dan konsolidasi program pusat, daerah, dan desa, Gizi dan ketahanan pangan, serta Pemantauan dan evaluasi."
@@ -634,8 +631,7 @@
             "patterns": [
                 "Apakah peran Sekretariat Wakil Presiden (Setwapres)?",
                 "Bagaimana Setwapres terlibat dalam pencegahan stuting?",
-                "Apa fungsi Setwapres dalam program ?",
-                "setwapres atau Sekretariat Wakil Presiden apa?"
+                "Apa fungsi Setwapres dalam program ?"
             ],
             "responses": [
                 "Setwapres bertugas mengkoordinasikan dan menyinkronkan program-program nasional, lokal, dan masyarakat dengan pendekatan multi-sektor melalui konvergensi program di semua tingkatan. Hal ini didasarkan pada Strategi Nasional Percepatan Pencegahan Anak Kerdil (Stunting)/Stranas Stunting yang mendorong pencegahan stunting berdasarkan 5 (lima) Pilar pencegahan stunting."
