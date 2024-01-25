@@ -511,7 +511,7 @@
             "patterns": [
                 "Apakah stunting dapat dicegah atau dikoreksi?",
                 "Bagaimana cara mencegah stunting?",
-                "Apakah stunting bisa diobati?"
+                "Apakah stunting bisa dicegah?"
             ],
             "responses": [
                 "Stunting dapat dicegah atau dikoreksi jika dilakukan sebelum atau selama periode emas. Intervensi dini, persiapan kondisi gizi dan kesehatan calon ibu, serta memastikan gizi yang cukup pada 1.000 Hari Pertama Kehidupan, yaitu sejak anak berada dalam kandungan hingga usia 2 tahun, merupakan langkah-langkah penting dalam pencegahan dan koreksi stunting."
@@ -599,7 +599,8 @@
             "patterns": [
                 "Berapa angka prevalensi stunting di Indonesia?",
                 "Bagaimana kondisi prevalensi stunting di Indonesia?",
-                "Seberapa besar masalah stunting di Indonesia?"
+                "Seberapa besar masalah stunting di Indonesia?",
+                "prevelensi stunting indonesia"
             ],
             "responses": [
                 "Berdasarkan Studi Status Gizi Balita dari Badan Penelitian dan Pengembangan Kesehatan (Balitbangkes), prevalensi stunting Indonesia tahun 2019 sebesar 27,7%. Meskipun telah turun dari tahun sebelumnya, percepatan pencegahan stunting terus dilakukan untuk mencapai target penurunan prevalensi stunting 14% pada tahun 2024."
@@ -621,8 +622,8 @@
             "patterns": [
                 "Apakah 5 (lima) Pilar pencegahan stunting?",
                 "Apa saja komponen dari 5 Pilar stunting?",
-                "Apa yang termasuk dalam 5 Pilar untuk mencegah stunting?",
-                "pilar pencegahan stunting apa?"
+                "Apa yang termasuk dalam 5 Pilar stunting?",
+                "komponen dari 5 pilar pencegahan stunting apa?"
             ],
             "responses": [
                 "5 Pilar pencegahan stunting melibatkan Komitmen dan visi kepemimpinan tertinggi negara, Kampanye nasional dan komunikasi perubahan perilaku, Konvergensi, koordinasi, dan konsolidasi program pusat, daerah, dan desa, Gizi dan ketahanan pangan, serta Pemantauan dan evaluasi."
@@ -631,10 +632,10 @@
         {
             "tag": "peran_setwapres",
             "patterns": [
-                "Apakah peran Sekretariat Wakil Presiden (Setwapres) dalam percepatan pencegahan stunting?",
-                "Bagaimana Setwapres terlibat?",
+                "Apakah peran Sekretariat Wakil Presiden (Setwapres)?",
+                "Bagaimana Setwapres terlibat dalam pencegahan stuting?",
                 "Apa fungsi Setwapres dalam program ?",
-                "setwapres perannya apa?"
+                "setwapres atau Sekretariat Wakil Presiden apa?"
             ],
             "responses": [
                 "Setwapres bertugas mengkoordinasikan dan menyinkronkan program-program nasional, lokal, dan masyarakat dengan pendekatan multi-sektor melalui konvergensi program di semua tingkatan. Hal ini didasarkan pada Strategi Nasional Percepatan Pencegahan Anak Kerdil (Stunting)/Stranas Stunting yang mendorong pencegahan stunting berdasarkan 5 (lima) Pilar pencegahan stunting."
