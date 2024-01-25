@@ -258,7 +258,7 @@
             "tag": "Peran_Masyarakat ",
             "patterns": [
                 "Apa peran masyarakat dalam mendukung pencegahan stunting?",
-                "Bagaimana masyarakat dapat berkontribusi dalam menciptakan lingkungan bebas stunting?",
+                "Bagaimana masyarakat berkontribusi dalam menciptakan lingkungan bebas stunting?",
                 "Apakah partisipasi masyarakat penting dalam program pencegahan stunting?",
                 "Apa yang harus dilakukan keluarga untuk mencegah stunting?"
             ],
@@ -382,7 +382,7 @@
             "patterns": [
                 "Bagaimana teknik pemberian makanan yang benar dapat membantu mencegah stunting pada anak?",
                 "Apa saja metode pemberian makanan yang efektif untuk asupan gizi optimal pada anak?",
-                "Bagaimana mengatasi anak yang sulit makan dengan menerapkan teknik pemberian makanan yang tepat?",
+                "Mengatasi anak yang sulit makan dengan menerapkan teknik pemberian makanan yang tepat?",
                 "Apakah variasi dalam menu makanan memiliki peran penting dalam mencegah stunting pada anak?",
                 "Bagaimana mengajarkan orang tua tentang teknik pemberian makanan yang seimbang untuk anak?"
             ],
@@ -394,9 +394,9 @@
             "tag": "Pentingnya_Aktivitas_Fisik",
             "patterns": [
                 "Seberapa penting aktivitas fisik dalam mendukung pertumbuhan anak dan mencegah stunting?",
-                "Apa jenis aktivitas fisik yang disarankan untuk anak-anak guna mencapai pertumbuhan optimal?",
+                "Apa jenis aktivitas fisik yang disarankan untuk anak-anak mencapai pertumbuhan optimal?",
                 "Bagaimana aktivitas fisik dapat mencegah stunting?",
-                "Apakah terdapat hubungan antara kurangnya aktivitas fisik dan peningkatan risiko stunting pada anak?",
+                "Apa hubungan antara kurangnya aktivitas fisik dan peningkatan risiko stunting pada anak?",
                 "Aktivitas fisik dapat meningkatkan stunting?"
             ],
             "responses": [
@@ -408,7 +408,7 @@
             "patterns": [
                 "Apa peran pemerintah dalam mendukung program pencegahan stunting di tingkat nasional?",
                 "Bagaimana kebijakan pemerintah dapat berkontribusi pada penanggulangan stunting?",
-                "Apakah terdapat kebijakan yang ditetapkan oleh pemerintah untuk meningkatkan gizi dan mencegah stunting?",
+                "Apakah terdapat kebijakan yang ditetapkan oleh pemerintah untuk mencegah stunting?",
                 "Apa upaya yang diambil oleh pemerintah dalam pencegahan stunting?"
             ],
             "responses": [
@@ -419,9 +419,9 @@
             "tag": "Ketersediaan_Air_Bersih",
             "patterns": [
                 "Mengapa ketersediaan air bersih berperan penting dalam pencegahan stunting?",
-                "Apa dampak kurangnya akses terhadap air bersih terhadap risiko infeksi dan pertumbuhan anak?",
+                "Dampak kurangnya akses terhadap air bersih terhadap risiko infeksi dan pertumbuhan anak?",
                 "apa yang terjadi jika akses terhadap air bersih kurang?",
-                "Apa langkah-langkah yang dapat diambil oleh pemerintah untuk meningkatkan akses air bersih?",
+                "Apa langkah-langkah yang diambil oleh pemerintah untuk meningkatkan akses air bersih?",
                 "Mengapa ketersediaan air bersih mempengeruhi stunting?"
             ],
             "responses": [
@@ -455,7 +455,8 @@
             "tag": "apakah_stunting_penyakit",
             "patterns": [
                 "Apakah stunting tergolong penyakit?",
-                "Stunting itu penyakit atau tidak?"
+                "Stunting itu penyakit atau tidak?",
+                "Apakah stunting merupakan gejala penyakit?"
             ],
             "responses": [
                 "Stunting bukan penyakit, melainkan kondisi gagal tumbuh karena kurangnya asupan makanan dan infeksi berulang dalam jangka waktu tertentu (kronis)."
@@ -464,8 +465,9 @@
         {
             "tag": "periode_emas",
             "patterns": [
-                "Mengapa 1.000 Hari Pertama Kehidupan (1.000 HPK) seorang anak disebut sebagai periode emas?",
-                "Apa yang dimaksud dengan periode emas dalam pencegahan stunting?"
+                "Mengapa 1.000 Hari Pertama Kehidupan seorang anak disebut sebagai periode emas?",
+                "Apa yang dimaksud dengan periode emas dalam pencegahan stunting?",
+                "Periode emas adalah apa?"
             ],
             "responses": [
                 "1.000 Hari Pertama Kehidupan disebut 'periode emas' karena pada masa itulah stunting dapat terjadi dan sekaligus dapat dicegah atau masih dapat dikoreksi. Jika tidak dicegah atau dikoreksi dalam kurun waktu tersebut, gangguan pertumbuhan maupun perkembangan akibat masalah gizi kronis umumnya akan menjadi permanen atau tidak dapat dikoreksi lagi."
@@ -474,7 +476,7 @@
         {
             "tag": "faktor_resiko_stunting",
             "patterns": [
-                "Apa yang menjadi faktor resiko/penyebab stunting sebagai indikasi masalah gizi kronis?",
+                "Apa faktor resiko/penyebab stunting sebagai indikasi masalah gizi kronis?",
                 "Apa saja faktor resiko stunting?",
                 "Penyebab anak mengalami stunting"
             ],
@@ -486,7 +488,8 @@
             "tag": "stunting_pada_keluarga",
             "patterns": [
                 "Apakah stunting hanya terjadi pada keluarga yang kurang mampu secara ekonomi?",
-                "Stunting terkait dengan kondisi ekonomi keluarga?"
+                "Stunting terkait dengan kondisi ekonomi keluarga?",
+                "Bagaimana hubungannya antara kondisi ekonomi keluarga"
             ],
             "responses": [
                 "Stunting tidak hanya terkait dengan masalah ekonomi keluarga. Baik anak dari keluarga yang mampu maupun tidak mampu secara ekonomi dapat berisiko mengalami stunting. Faktor lain seperti pola asuh, kondisi lingkungan, akses ke informasi gizi kesehatan, dll dapat menjadi faktor resiko stunting tanpa tergantung pada masalah ekonomi keluarga."
@@ -562,7 +565,7 @@
             "tag": "aksi_konvergensi_percepatan",
             "patterns": [
                 "Apa Aksi Konvergensi Percepatan Penurunan Stunting?",
-                "Bagaimana Aksi Konvergensi membantu percepatan penurunan stunting?",
+                "Aksi Konvergensi membantu percepatan penurunan stunting?",
                 "Apa peran Aksi Konvergensi dalam menangani stunting?"
             ],
             "responses": [
@@ -572,7 +575,7 @@
         {
             "tag": "intervensi_gizi",
             "patterns": [
-                "Mengapa intervensi gizi pencegahan dan penurunan stunting harus dilakukan secara konvergen?",
+                "Mengapa intervensi gizi penurunan stunting dilakukan secara konvergen?",
                 "Apa keuntungan dari intervensi gizi yang konvergen?",
                 "Mengapa intervensi gizi perlu terpadu?"
             ],
@@ -605,7 +608,7 @@
         {
             "tag": "target_indikator_penurunan_stunting",
             "patterns": [
-                "Apa target indikator utama dalam intervensi penurunan stunting terintegrasi atau konvergen?",
+                "Apa target indikator utama dalam intervensi penurunan stunting konvergen?",
                 "Apa ukuran utama keberhasilan penurunan stunting?",
                 "Bagaimana kita mengukur keberhasilan intervensi penurunan stunting?"
             ],
@@ -617,8 +620,9 @@
             "tag": "lima_pilar_pencegahan_stunting",
             "patterns": [
                 "Apakah 5 (lima) Pilar pencegahan stunting?",
-                "Apa saja komponen dari 5 Pilar pencegahan stunting?",
-                "Apa yang termasuk dalam 5 Pilar untuk mencegah stunting?"
+                "Apa saja komponen dari 5 Pilar stunting?",
+                "Apa yang termasuk dalam 5 Pilar untuk mencegah stunting?",
+                "pilar pencegahan stunting apa?"
             ],
             "responses": [
                 "5 Pilar pencegahan stunting melibatkan Komitmen dan visi kepemimpinan tertinggi negara, Kampanye nasional dan komunikasi perubahan perilaku, Konvergensi, koordinasi, dan konsolidasi program pusat, daerah, dan desa, Gizi dan ketahanan pangan, serta Pemantauan dan evaluasi."
@@ -628,8 +632,9 @@
             "tag": "peran_setwapres",
             "patterns": [
                 "Apakah peran Sekretariat Wakil Presiden (Setwapres) dalam percepatan pencegahan stunting?",
-                "Bagaimana Setwapres terlibat dalam penanganan stunting?",
-                "Apa fungsi Setwapres dalam program pencegahan stunting?"
+                "Bagaimana Setwapres terlibat?",
+                "Apa fungsi Setwapres dalam program ?",
+                "setwapres perannya apa?"
             ],
             "responses": [
                 "Setwapres bertugas mengkoordinasikan dan menyinkronkan program-program nasional, lokal, dan masyarakat dengan pendekatan multi-sektor melalui konvergensi program di semua tingkatan. Hal ini didasarkan pada Strategi Nasional Percepatan Pencegahan Anak Kerdil (Stunting)/Stranas Stunting yang mendorong pencegahan stunting berdasarkan 5 (lima) Pilar pencegahan stunting."
